@@ -1,0 +1,202 @@
+[
+  {
+    "ContainingType": "TranslationWebApp.Controllers.ConversationController",
+    "Method": "TranslateAsync",
+    "RelativePath": "api/conversation/translate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ContentType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentDisposition",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Headers",
+        "Type": "Microsoft.AspNetCore.Http.IHeaderDictionary",
+        "IsRequired": false
+      },
+      {
+        "Name": "Length",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FileName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "fromLanguage",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "toLanguage",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "speaker",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TranslationWebApp.Controllers.DocumentTranslationController",
+    "Method": "TranslateDocument",
+    "RelativePath": "api/document/translate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "fromLanguage",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "toLanguage",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TranslationWebApp.Controllers.ImageTranslationController",
+    "Method": "TranslateImage",
+    "RelativePath": "api/image/translate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "imageFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "fromLanguage",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "toLanguage",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TranslationWebApp.Controllers.SpeechTranslationController",
+    "Method": "TranslateSpeechAsync",
+    "RelativePath": "api/speech/translate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "AudioData.CanRead",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "AudioData.CanWrite",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "AudioData.CanSeek",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "AudioData.CanTimeout",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "AudioData.Length",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "AudioData.Position",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "AudioData.ReadTimeout",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "AudioData.WriteTimeout",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "AudioFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "FromLanguage",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ToLanguage",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TranslationWebApp.Controllers.TranslationController",
+    "Method": "Translate",
+    "RelativePath": "api/text/translate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TranslationWebApp.Domain.Models.TranslationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TranslationWebApp.Domain.Models.TranslationResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

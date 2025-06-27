@@ -1,0 +1,281 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "TranslationWebApp",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/document/translate": {
+      "post": {
+        "tags": [
+          "DocumentTranslation"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "file": {
+                    "type": "string",
+                    "format": "binary"
+                  },
+                  "fromLanguage": {
+                    "type": "string",
+                    "default": "en"
+                  },
+                  "toLanguage": {
+                    "type": "string",
+                    "default": "vi"
+                  }
+                }
+              },
+              "encoding": {
+                "file": {
+                  "style": "form"
+                },
+                "fromLanguage": {
+                  "style": "form"
+                },
+                "toLanguage": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/image/translate": {
+      "post": {
+        "tags": [
+          "ImageTranslation"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "imageFile": {
+                    "type": "string",
+                    "format": "binary"
+                  },
+                  "fromLanguage": {
+                    "type": "string",
+                    "default": "en"
+                  },
+                  "toLanguage": {
+                    "type": "string",
+                    "default": "vi"
+                  }
+                }
+              },
+              "encoding": {
+                "imageFile": {
+                  "style": "form"
+                },
+                "fromLanguage": {
+                  "style": "form"
+                },
+                "toLanguage": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/speech/translate": {
+      "post": {
+        "tags": [
+          "SpeechTranslation"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "AudioData.CanRead": {
+                    "type": "boolean"
+                  },
+                  "AudioData.CanWrite": {
+                    "type": "boolean"
+                  },
+                  "AudioData.CanSeek": {
+                    "type": "boolean"
+                  },
+                  "AudioData.CanTimeout": {
+                    "type": "boolean"
+                  },
+                  "AudioData.Length": {
+                    "type": "integer",
+                    "format": "int64"
+                  },
+                  "AudioData.Position": {
+                    "type": "integer",
+                    "format": "int64"
+                  },
+                  "AudioData.ReadTimeout": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "AudioData.WriteTimeout": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "AudioFile": {
+                    "type": "string",
+                    "format": "binary"
+                  },
+                  "FromLanguage": {
+                    "type": "string"
+                  },
+                  "ToLanguage": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "AudioData.CanRead": {
+                  "style": "form"
+                },
+                "AudioData.CanWrite": {
+                  "style": "form"
+                },
+                "AudioData.CanSeek": {
+                  "style": "form"
+                },
+                "AudioData.CanTimeout": {
+                  "style": "form"
+                },
+                "AudioData.Length": {
+                  "style": "form"
+                },
+                "AudioData.Position": {
+                  "style": "form"
+                },
+                "AudioData.ReadTimeout": {
+                  "style": "form"
+                },
+                "AudioData.WriteTimeout": {
+                  "style": "form"
+                },
+                "AudioFile": {
+                  "style": "form"
+                },
+                "FromLanguage": {
+                  "style": "form"
+                },
+                "ToLanguage": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Translation": {
+      "post": {
+        "tags": [
+          "Translation"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TranslationRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TranslationRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/TranslationRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/TranslationResult"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TranslationResult"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TranslationResult"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "TranslationRequest": {
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string",
+            "nullable": true
+          },
+          "sourceLanguage": {
+            "type": "string",
+            "nullable": true
+          },
+          "targetLanguage": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TranslationResult": {
+        "type": "object",
+        "properties": {
+          "translatedText": {
+            "type": "string",
+            "nullable": true
+          },
+          "detectedSourceLanguage": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

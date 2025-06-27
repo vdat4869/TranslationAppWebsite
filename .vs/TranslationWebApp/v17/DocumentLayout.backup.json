@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\.vs\\TranslationWebApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4A408629-C3C0-46F8-91F8-01B17AA9E849}|TranslationWebApp\\TranslationWebApp.csproj|d:\\.vs\\translationwebapp\\translationwebapp\\wwwroot\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{4A408629-C3C0-46F8-91F8-01B17AA9E849}|TranslationWebApp\\TranslationWebApp.csproj|solutionrelative:translationwebapp\\wwwroot\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A408629-C3C0-46F8-91F8-01B17AA9E849}|TranslationWebApp\\TranslationWebApp.csproj|d:\\.vs\\translationwebapp\\translationwebapp\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A408629-C3C0-46F8-91F8-01B17AA9E849}|TranslationWebApp\\TranslationWebApp.csproj|solutionrelative:translationwebapp\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A408629-C3C0-46F8-91F8-01B17AA9E849}|TranslationWebApp\\TranslationWebApp.csproj|d:\\.vs\\translationwebapp\\translationwebapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4A408629-C3C0-46F8-91F8-01B17AA9E849}|TranslationWebApp\\TranslationWebApp.csproj|solutionrelative:translationwebapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7F5EBB7-3AD0-4729-9E90-AF50AF697CEF}|TranslationWebApp.Infrastructure\\TranslationWebApp.Infrastructure.csproj|d:\\.vs\\translationwebapp\\translationwebapp.infrastructure\\providers\\azuretexttranslationprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7F5EBB7-3AD0-4729-9E90-AF50AF697CEF}|TranslationWebApp.Infrastructure\\TranslationWebApp.Infrastructure.csproj|solutionrelative:translationwebapp.infrastructure\\providers\\azuretexttranslationprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7F5EBB7-3AD0-4729-9E90-AF50AF697CEF}|TranslationWebApp.Infrastructure\\TranslationWebApp.Infrastructure.csproj|d:\\.vs\\translationwebapp\\translationwebapp.infrastructure\\configuration\\azuretranslatorconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7F5EBB7-3AD0-4729-9E90-AF50AF697CEF}|TranslationWebApp.Infrastructure\\TranslationWebApp.Infrastructure.csproj|solutionrelative:translationwebapp.infrastructure\\configuration\\azuretranslatorconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A408629-C3C0-46F8-91F8-01B17AA9E849}|TranslationWebApp\\TranslationWebApp.csproj|d:\\.vs\\translationwebapp\\translationwebapp\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4A408629-C3C0-46F8-91F8-01B17AA9E849}|TranslationWebApp\\TranslationWebApp.csproj|solutionrelative:translationwebapp\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A408629-C3C0-46F8-91F8-01B17AA9E849}|TranslationWebApp\\TranslationWebApp.csproj|d:\\.vs\\translationwebapp\\translationwebapp\\controllers\\translationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A408629-C3C0-46F8-91F8-01B17AA9E849}|TranslationWebApp\\TranslationWebApp.csproj|solutionrelative:translationwebapp\\controllers\\translationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A408629-C3C0-46F8-91F8-01B17AA9E849}|TranslationWebApp\\TranslationWebApp.csproj|d:\\.vs\\translationwebapp\\translationwebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A408629-C3C0-46F8-91F8-01B17AA9E849}|TranslationWebApp\\TranslationWebApp.csproj|solutionrelative:translationwebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TranslationController.cs",
+              "DocumentMoniker": "D:\\.vs\\TranslationWebApp\\TranslationWebApp\\Controllers\\TranslationController.cs",
+              "RelativeDocumentMoniker": "TranslationWebApp\\Controllers\\TranslationController.cs",
+              "ToolTip": "D:\\.vs\\TranslationWebApp\\TranslationWebApp\\Controllers\\TranslationController.cs",
+              "RelativeToolTip": "TranslationWebApp\\Controllers\\TranslationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T13:33:38.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\.vs\\TranslationWebApp\\TranslationWebApp\\Program.cs",
+              "RelativeDocumentMoniker": "TranslationWebApp\\Program.cs",
+              "ToolTip": "D:\\.vs\\TranslationWebApp\\TranslationWebApp\\Program.cs",
+              "RelativeToolTip": "TranslationWebApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T13:25:45.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AzureTranslatorConfig.cs",
+              "DocumentMoniker": "D:\\.vs\\TranslationWebApp\\TranslationWebApp.Infrastructure\\Configuration\\AzureTranslatorConfig.cs",
+              "RelativeDocumentMoniker": "TranslationWebApp.Infrastructure\\Configuration\\AzureTranslatorConfig.cs",
+              "ToolTip": "D:\\.vs\\TranslationWebApp\\TranslationWebApp.Infrastructure\\Configuration\\AzureTranslatorConfig.cs",
+              "RelativeToolTip": "TranslationWebApp.Infrastructure\\Configuration\\AzureTranslatorConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T13:25:26.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AzureTextTranslationProvider.cs",
+              "DocumentMoniker": "D:\\.vs\\TranslationWebApp\\TranslationWebApp.Infrastructure\\Providers\\AzureTextTranslationProvider.cs",
+              "RelativeDocumentMoniker": "TranslationWebApp.Infrastructure\\Providers\\AzureTextTranslationProvider.cs",
+              "ToolTip": "D:\\.vs\\TranslationWebApp\\TranslationWebApp.Infrastructure\\Providers\\AzureTextTranslationProvider.cs",
+              "RelativeToolTip": "TranslationWebApp.Infrastructure\\Providers\\AzureTextTranslationProvider.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAuwB0AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T13:25:06.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\.vs\\TranslationWebApp\\TranslationWebApp\\appsettings.json",
+              "RelativeDocumentMoniker": "TranslationWebApp\\appsettings.json",
+              "ToolTip": "D:\\.vs\\TranslationWebApp\\TranslationWebApp\\appsettings.json",
+              "RelativeToolTip": "TranslationWebApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-27T12:51:23.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "index.html",
+              "DocumentMoniker": "D:\\.vs\\TranslationWebApp\\TranslationWebApp\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "TranslationWebApp\\wwwroot\\index.html",
+              "ToolTip": "D:\\.vs\\TranslationWebApp\\TranslationWebApp\\wwwroot\\index.html",
+              "RelativeToolTip": "TranslationWebApp\\wwwroot\\index.html",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAqwPAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-06-27T12:48:20.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.js",
+              "DocumentMoniker": "D:\\.vs\\TranslationWebApp\\TranslationWebApp\\wwwroot\\js\\main.js",
+              "RelativeDocumentMoniker": "TranslationWebApp\\wwwroot\\js\\main.js",
+              "ToolTip": "D:\\.vs\\TranslationWebApp\\TranslationWebApp\\wwwroot\\js\\main.js",
+              "RelativeToolTip": "TranslationWebApp\\wwwroot\\js\\main.js",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAAGcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-27T12:26:11.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "style.css",
+              "DocumentMoniker": "D:\\.vs\\TranslationWebApp\\TranslationWebApp\\wwwroot\\css\\style.css",
+              "RelativeDocumentMoniker": "TranslationWebApp\\wwwroot\\css\\style.css",
+              "ToolTip": "D:\\.vs\\TranslationWebApp\\TranslationWebApp\\wwwroot\\css\\style.css",
+              "RelativeToolTip": "TranslationWebApp\\wwwroot\\css\\style.css",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwDsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-27T12:25:57.112Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

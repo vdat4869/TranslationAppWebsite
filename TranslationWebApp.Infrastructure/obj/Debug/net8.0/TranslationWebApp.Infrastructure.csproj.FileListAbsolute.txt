@@ -1,0 +1,17 @@
+D:\.vs\TranslationWebApp\TranslationWebApp.Infrastructure\bin\Debug\net8.0\TranslationWebApp.Infrastructure.deps.json
+D:\.vs\TranslationWebApp\TranslationWebApp.Infrastructure\bin\Debug\net8.0\TranslationWebApp.Infrastructure.dll
+D:\.vs\TranslationWebApp\TranslationWebApp.Infrastructure\bin\Debug\net8.0\TranslationWebApp.Infrastructure.pdb
+D:\.vs\TranslationWebApp\TranslationWebApp.Infrastructure\bin\Debug\net8.0\TranslationWebApp.Application.dll
+D:\.vs\TranslationWebApp\TranslationWebApp.Infrastructure\bin\Debug\net8.0\TranslationWebApp.Domain.dll
+D:\.vs\TranslationWebApp\TranslationWebApp.Infrastructure\bin\Debug\net8.0\TranslationWebApp.Application.pdb
+D:\.vs\TranslationWebApp\TranslationWebApp.Infrastructure\bin\Debug\net8.0\TranslationWebApp.Domain.pdb
+D:\.vs\TranslationWebApp\TranslationWebApp.Infrastructure\obj\Debug\net8.0\TranslationWebApp.Infrastructure.csproj.AssemblyReference.cache
+D:\.vs\TranslationWebApp\TranslationWebApp.Infrastructure\obj\Debug\net8.0\TranslationWebApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\.vs\TranslationWebApp\TranslationWebApp.Infrastructure\obj\Debug\net8.0\TranslationWebApp.Infrastructure.AssemblyInfoInputs.cache
+D:\.vs\TranslationWebApp\TranslationWebApp.Infrastructure\obj\Debug\net8.0\TranslationWebApp.Infrastructure.AssemblyInfo.cs
+D:\.vs\TranslationWebApp\TranslationWebApp.Infrastructure\obj\Debug\net8.0\TranslationWebApp.Infrastructure.csproj.CoreCompileInputs.cache
+D:\.vs\TranslationWebApp\TranslationWebApp.Infrastructure\obj\Debug\net8.0\Translat.63B040AC.Up2Date
+D:\.vs\TranslationWebApp\TranslationWebApp.Infrastructure\obj\Debug\net8.0\TranslationWebApp.Infrastructure.dll
+D:\.vs\TranslationWebApp\TranslationWebApp.Infrastructure\obj\Debug\net8.0\refint\TranslationWebApp.Infrastructure.dll
+D:\.vs\TranslationWebApp\TranslationWebApp.Infrastructure\obj\Debug\net8.0\TranslationWebApp.Infrastructure.pdb
+D:\.vs\TranslationWebApp\TranslationWebApp.Infrastructure\obj\Debug\net8.0\ref\TranslationWebApp.Infrastructure.dll
