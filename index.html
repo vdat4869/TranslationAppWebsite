@@ -1,0 +1,246 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Translation Web App</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Translation Web App</h1>
+    </header>
+
+    <div class="tabs">
+        <button class="tab-button active" data-tab="text-tab">📄 Dịch văn bản</button>
+        <button class="tab-button" data-tab="image-tab">🖼️ Dịch ảnh</button>
+        <button class="tab-button" data-tab="speech-tab">🎤 Dịch giọng nói</button>
+        <button class="tab-button" data-tab="conversation-tab">💬 Hội thoại</button>
+        <button class="tab-button" data-tab="document-tab">📂 Dịch tài liệu</button>
+    </div>
+
+    <div class="tab-content">
+        <!-- Tab: Dịch văn bản -->
+        <div id="text-tab" class="tab-panel active">
+            <div class="language-select">
+                <select id="from-language">
+                    <!-- Thêm vào bên trong <select id="from-language"> và <select id="to-language"> -->
+                    <option value="auto" selected>🌐 Tự động phát hiện</option>
+                    <option value="af">Tiếng Afrikaans</option>
+                    <option value="sq">Tiếng Albania</option>
+                    <option value="am">Tiếng Amhara</option>
+                    <option value="ar">Tiếng Ả Rập</option>
+                    <option value="hy">Tiếng Armenia</option>
+                    <option value="az">Tiếng Azerbaijan</option>
+                    <option value="eu">Tiếng Basque</option>
+                    <option value="be">Tiếng Belarus</option>
+                    <option value="bn">Tiếng Bengal</option>
+                    <option value="bs">Tiếng Bosnia</option>
+                    <option value="bg">Tiếng Bulgaria</option>
+                    <option value="yue">Tiếng Quảng Đông (Trung Quốc)</option>
+                    <option value="ca">Tiếng Catalan</option>
+                    <option value="zh-Hans">Tiếng Trung (Giản thể)</option>
+                    <option value="zh-Hant">Tiếng Trung (Phồn thể)</option>
+                    <option value="hr">Tiếng Croatia</option>
+                    <option value="cs">Tiếng Séc</option>
+                    <option value="da">Tiếng Đan Mạch</option>
+                    <option value="nl">Tiếng Hà Lan</option>
+                    <option value="en" selected>Tiếng Anh</option>
+                    <option value="et">Tiếng Estonia</option>
+                    <option value="fi">Tiếng Phần Lan</option>
+                    <option value="fr">Tiếng Pháp</option>
+                    <option value="gl">Tiếng Galicia</option>
+                    <option value="ka">Tiếng Georgia</option>
+                    <option value="de">Tiếng Đức</option>
+                    <option value="el">Tiếng Hy Lạp</option>
+                    <option value="gu">Tiếng Gujarat</option>
+                    <option value="ht">Tiếng Haiti Creole</option>
+                    <option value="he">Tiếng Do Thái</option>
+                    <option value="hi">Tiếng Hindi</option>
+                    <option value="hu">Tiếng Hungary</option>
+                    <option value="is">Tiếng Iceland</option>
+                    <option value="id">Tiếng Indonesia</option>
+                    <option value="ga">Tiếng Ireland</option>
+                    <option value="it">Tiếng Ý</option>
+                    <option value="ja">Tiếng Nhật</option>
+                    <option value="kn">Tiếng Kannada</option>
+                    <option value="kk">Tiếng Kazakhstan</option>
+                    <option value="km">Tiếng Khmer</option>
+                    <option value="ko">Tiếng Hàn</option>
+                    <option value="lo">Tiếng Lào</option>
+                    <option value="lv">Tiếng Latvia</option>
+                    <option value="lt">Tiếng Litva</option>
+                    <option value="mk">Tiếng Macedonia</option>
+                    <option value="ms">Tiếng Mã Lai</option>
+                    <option value="ml">Tiếng Malayalam</option>
+                    <option value="mt">Tiếng Malta</option>
+                    <option value="mi">Tiếng Maori</option>
+                    <option value="mr">Tiếng Marathi</option>
+                    <option value="mn">Tiếng Mông Cổ</option>
+                    <option value="ne">Tiếng Nepal</option>
+                    <option value="no">Tiếng Na Uy</option>
+                    <option value="fa">Tiếng Ba Tư</option>
+                    <option value="pl">Tiếng Ba Lan</option>
+                    <option value="pt">Tiếng Bồ Đào Nha</option>
+                    <option value="pa">Tiếng Punjab</option>
+                    <option value="ro">Tiếng Romania</option>
+                    <option value="ru">Tiếng Nga</option>
+                    <option value="sr">Tiếng Serbia</option>
+                    <option value="sk">Tiếng Slovak</option>
+                    <option value="sl">Tiếng Slovenia</option>
+                    <option value="so">Tiếng Somali</option>
+                    <option value="es">Tiếng Tây Ban Nha</option>
+                    <option value="sw">Tiếng Swahili</option>
+                    <option value="sv">Tiếng Thụy Điển</option>
+                    <option value="ta">Tiếng Tamil</option>
+                    <option value="te">Tiếng Telugu</option>
+                    <option value="th">Tiếng Thái</option>
+                    <option value="tr">Tiếng Thổ Nhĩ Kỳ</option>
+                    <option value="uk">Tiếng Ukraina</option>
+                    <option value="ur">Tiếng Urdu</option>
+                    <option value="uz">Tiếng Uzbekistan</option>
+                    <option value="vi">Tiếng Việt</option>
+                    <option value="cy">Tiếng Wales</option>
+                    <option value="xh">Tiếng Xhosa</option>
+                    <option value="yi">Tiếng Yiddish</option>
+                    <option value="zu">Tiếng Zulu</option>
+                </select>
+                <button id="swap-button">⇄</button>
+                <select id="to-language">
+                    <!-- Thêm vào bên trong <select id="from-language"> và <select id="to-language"> -->
+                    <option value="af">Tiếng Afrikaans</option>
+                    <option value="sq">Tiếng Albania</option>
+                    <option value="am">Tiếng Amhara</option>
+                    <option value="ar">Tiếng Ả Rập</option>
+                    <option value="hy">Tiếng Armenia</option>
+                    <option value="az">Tiếng Azerbaijan</option>
+                    <option value="eu">Tiếng Basque</option>
+                    <option value="be">Tiếng Belarus</option>
+                    <option value="bn">Tiếng Bengal</option>
+                    <option value="bs">Tiếng Bosnia</option>
+                    <option value="bg">Tiếng Bulgaria</option>
+                    <option value="yue">Tiếng Quảng Đông (Trung Quốc)</option>
+                    <option value="ca">Tiếng Catalan</option>
+                    <option value="zh-Hans">Tiếng Trung (Giản thể)</option>
+                    <option value="zh-Hant">Tiếng Trung (Phồn thể)</option>
+                    <option value="hr">Tiếng Croatia</option>
+                    <option value="cs">Tiếng Séc</option>
+                    <option value="da">Tiếng Đan Mạch</option>
+                    <option value="nl">Tiếng Hà Lan</option>
+                    <option value="en" selected>Tiếng Anh</option>
+                    <option value="et">Tiếng Estonia</option>
+                    <option value="fi">Tiếng Phần Lan</option>
+                    <option value="fr">Tiếng Pháp</option>
+                    <option value="gl">Tiếng Galicia</option>
+                    <option value="ka">Tiếng Georgia</option>
+                    <option value="de">Tiếng Đức</option>
+                    <option value="el">Tiếng Hy Lạp</option>
+                    <option value="gu">Tiếng Gujarat</option>
+                    <option value="ht">Tiếng Haiti Creole</option>
+                    <option value="he">Tiếng Do Thái</option>
+                    <option value="hi">Tiếng Hindi</option>
+                    <option value="hu">Tiếng Hungary</option>
+                    <option value="is">Tiếng Iceland</option>
+                    <option value="id">Tiếng Indonesia</option>
+                    <option value="ga">Tiếng Ireland</option>
+                    <option value="it">Tiếng Ý</option>
+                    <option value="ja">Tiếng Nhật</option>
+                    <option value="kn">Tiếng Kannada</option>
+                    <option value="kk">Tiếng Kazakhstan</option>
+                    <option value="km">Tiếng Khmer</option>
+                    <option value="ko">Tiếng Hàn</option>
+                    <option value="lo">Tiếng Lào</option>
+                    <option value="lv">Tiếng Latvia</option>
+                    <option value="lt">Tiếng Litva</option>
+                    <option value="mk">Tiếng Macedonia</option>
+                    <option value="ms">Tiếng Mã Lai</option>
+                    <option value="ml">Tiếng Malayalam</option>
+                    <option value="mt">Tiếng Malta</option>
+                    <option value="mi">Tiếng Maori</option>
+                    <option value="mr">Tiếng Marathi</option>
+                    <option value="mn">Tiếng Mông Cổ</option>
+                    <option value="ne">Tiếng Nepal</option>
+                    <option value="no">Tiếng Na Uy</option>
+                    <option value="fa">Tiếng Ba Tư</option>
+                    <option value="pl">Tiếng Ba Lan</option>
+                    <option value="pt">Tiếng Bồ Đào Nha</option>
+                    <option value="pa">Tiếng Punjab</option>
+                    <option value="ro">Tiếng Romania</option>
+                    <option value="ru">Tiếng Nga</option>
+                    <option value="sr">Tiếng Serbia</option>
+                    <option value="sk">Tiếng Slovak</option>
+                    <option value="sl">Tiếng Slovenia</option>
+                    <option value="so">Tiếng Somali</option>
+                    <option value="es">Tiếng Tây Ban Nha</option>
+                    <option value="sw">Tiếng Swahili</option>
+                    <option value="sv">Tiếng Thụy Điển</option>
+                    <option value="ta">Tiếng Tamil</option>
+                    <option value="te">Tiếng Telugu</option>
+                    <option value="th">Tiếng Thái</option>
+                    <option value="tr">Tiếng Thổ Nhĩ Kỳ</option>
+                    <option value="uk">Tiếng Ukraina</option>
+                    <option value="ur">Tiếng Urdu</option>
+                    <option value="uz">Tiếng Uzbekistan</option>
+                    <option value="vi">Tiếng Việt</option>
+                    <option value="cy">Tiếng Wales</option>
+                    <option value="xh">Tiếng Xhosa</option>
+                    <option value="yi">Tiếng Yiddish</option>
+                    <option value="zu">Tiếng Zulu</option>
+                </select>
+            </div>
+
+            <div class="text-area">
+                <textarea id="input-text" placeholder="Nhập văn bản..."></textarea>
+                <textarea id="output-text" placeholder="Bản dịch..." readonly></textarea>
+            </div>
+
+            <div class="action-buttons">
+                <button id="translate-btn">Dịch</button>
+                <button id="clear-btn">Xóa</button>
+                <button id="speak-btn">🔊 Phát âm</button>
+            </div>
+        </div>
+
+        <!-- Tab: Dịch ảnh -->
+        <div id="image-tab" class="tab-panel">
+            <input type="file" id="image-upload" accept="image/*">
+            <textarea id="image-ocr-result" placeholder="Văn bản trích từ ảnh..." readonly></textarea>
+            <button id="image-ocr-btn">📷 Trích văn bản từ ảnh</button>
+        </div>
+
+        <!-- Tab: Dịch giọng nói -->
+        <div id="speech-tab" class="tab-panel">
+            <input type="file" id="speech-audio-file" accept="audio/*">
+            <button id="speech-translate-btn">🎙️ Dịch giọng nói</button>
+            <textarea id="speech-recognized-text" placeholder="Văn bản nhận diện..." readonly></textarea>
+            <textarea id="speech-translated-text" placeholder="Bản dịch..." readonly></textarea>
+            <audio id="speech-audio-result" controls></audio>
+        </div>
+
+        <!-- Tab: Hội thoại song ngữ -->
+        <div id="conversation-tab" class="tab-panel">
+            <input type="file" id="conversation-audio" accept="audio/*">
+            <select id="speaker">
+                <option value="user">Người dùng</option>
+                <option value="bot">Bot</option>
+            </select>
+            <button id="conversation-send">Gửi giọng nói</button>
+            <div class="conversation-result">
+                <textarea id="conversation-recognized" placeholder="Bạn nói..." readonly></textarea>
+                <textarea id="conversation-translated" placeholder="Bot dịch..." readonly></textarea>
+                <audio id="conversation-audio-result" controls></audio>
+            </div>
+        </div>
+
+        <!-- Tab: Dịch tài liệu -->
+        <div id="document-tab" class="tab-panel">
+            <input type="file" id="document-upload" accept=".pdf,.doc,.docx,.txt">
+            <button id="document-translate-btn">📄 Dịch tài liệu</button>
+            <textarea id="document-translated-text" placeholder="Bản dịch tài liệu..." readonly></textarea>
+        </div>
+
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
