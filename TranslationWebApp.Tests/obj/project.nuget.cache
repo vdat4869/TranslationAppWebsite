@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sbX0vw2U5+M=",
+  "dgSpecHash": "LX06hdIcJg8=",
   "success": true,
-  "projectFilePath": "D:\\.vs\\TranslationWebApp\\TranslationWebApp.Tests\\TranslationWebApp.Tests.csproj",
+  "projectFilePath": "D:\\source\\TranslationWebApp\\TranslationWebApp.Tests\\TranslationWebApp.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\inusa\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\inusa\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",

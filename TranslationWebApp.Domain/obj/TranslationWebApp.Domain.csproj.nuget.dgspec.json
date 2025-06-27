@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\.vs\\TranslationWebApp\\TranslationWebApp.Domain\\TranslationWebApp.Domain.csproj": {}
+    "D:\\source\\TranslationWebApp\\TranslationWebApp.Domain\\TranslationWebApp.Domain.csproj": {}
   },
   "projects": {
-    "D:\\.vs\\TranslationWebApp\\TranslationWebApp.Domain\\TranslationWebApp.Domain.csproj": {
+    "D:\\source\\TranslationWebApp\\TranslationWebApp.Domain\\TranslationWebApp.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.vs\\TranslationWebApp\\TranslationWebApp.Domain\\TranslationWebApp.Domain.csproj",
+        "projectUniqueName": "D:\\source\\TranslationWebApp\\TranslationWebApp.Domain\\TranslationWebApp.Domain.csproj",
         "projectName": "TranslationWebApp.Domain",
-        "projectPath": "D:\\.vs\\TranslationWebApp\\TranslationWebApp.Domain\\TranslationWebApp.Domain.csproj",
+        "projectPath": "D:\\source\\TranslationWebApp\\TranslationWebApp.Domain\\TranslationWebApp.Domain.csproj",
         "packagesPath": "C:\\Users\\inusa\\.nuget\\packages\\",
-        "outputPath": "D:\\.vs\\TranslationWebApp\\TranslationWebApp.Domain\\obj\\",
+        "outputPath": "D:\\source\\TranslationWebApp\\TranslationWebApp.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FNbpy93ZBgU=",
+  "dgSpecHash": "hGi0hlXzFt8=",
   "success": true,
-  "projectFilePath": "D:\\.vs\\TranslationWebApp\\TranslationWebApp.Infrastructure\\TranslationWebApp.Infrastructure.csproj",
+  "projectFilePath": "D:\\source\\TranslationWebApp\\TranslationWebApp.Infrastructure\\TranslationWebApp.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\inusa\\.nuget\\packages\\azure.ai.documentintelligence\\1.0.0\\azure.ai.documentintelligence.1.0.0.nupkg.sha512",
     "C:\\Users\\inusa\\.nuget\\packages\\azure.ai.formrecognizer\\4.1.0\\azure.ai.formrecognizer.4.1.0.nupkg.sha512",
